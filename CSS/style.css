@@ -119,7 +119,11 @@ div{
 	font-weight: 500;
 }
 
+/* Introduction section*/
 
+.intro .content {
+	background-image: url('images/first-background.jpg');
+} 
 
 
 
