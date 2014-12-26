@@ -55,10 +55,23 @@ div{
 	border: 1px solid Chocolate;
 }
 
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
 /* Navigation Section */
 .navbar {
 	background-color: #fff;
 }
+
+.content{
+	 -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+     box-sizing: border-box;         /* Opera/IE 8+ */
+	padding: 0px 15px;
+
+}
+
 .navbar > .content {
 	width: 970px;
 	height: 70px;
@@ -71,9 +84,32 @@ div{
 
 }
 
+.navbar .links {
+	float: right;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+	margin-top: 1.7rem;
 
 
+}
 
+li {
+
+	display: inline-block;
+}
+
+.links > li:hover{
+	color: #000;
+	cursor: pointer;
+
+}
+
+.navbar .links > .active {
+	color: #4c5058;
+	font-weight: 600;
+}
 
 
 
