@@ -132,13 +132,14 @@ div{
     height: 45.938rem;
     position: absolute;
     width: 100%;
+    overflow: auto;
 }
 
 .intro h1,
 .intro h3 {
 	text-align: center;
 	color: white;
-	font-weight: 300;
+	font-weight: 200;
 }
 
 .intro h1 {
@@ -148,6 +149,27 @@ div{
  .intro h3 {
  	margin-top: 1.25rem;
 	font-size: 1.563rem;
+ }
+
+ .big-button {
+ 	text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    display: block;
+	margin: 0 auto;
+	width: 9.688rem;
+	background-color: #f15a29;
+	font-size: 1.125rem;
+	color: white;
+	margin-top: 1.25rem;
+ }
+
+ .big-button:hover {
+ 	background-color: #d9400e;
+	cursor: pointer;
+
  }
 
 
