@@ -58,6 +58,7 @@ table {
 
 body{
 	background-color: LightGray;
+	font-family: Roboto;
 }
 div{
 	border: 1px solid Chocolate;
@@ -69,6 +70,8 @@ div{
      -moz-box-sizing: border-box;    /* Firefox, other Gecko */
      box-sizing: border-box;         /* Opera/IE 8+ */
 	padding: 0px 15px;
+	margin:0 auto; 
+	width: 970px;
 
 }
 
@@ -121,9 +124,33 @@ div{
 
 /* Introduction section*/
 
-.intro .content {
-	background-image: url('images/first-background.jpg');
-} 
+.intro {
+	background-image: url('../images/first-background.jpg');
+	background-position: 0 bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    position: absolute;
+    width: 100%;
+}
+
+.intro h1,
+.intro h3 {
+	text-align: center;
+	color: white;
+	font-weight: 300;
+}
+
+.intro h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+ .intro h3 {
+ 	margin-top: 1.25rem;
+	font-size: 1.563rem;
+ }
+
+
 
 
 
