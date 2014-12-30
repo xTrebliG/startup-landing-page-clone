@@ -61,7 +61,7 @@ body{
 	font-family: Roboto;
 }
 div{
-	border: 1px solid Chocolate;
+	border: 0px solid Chocolate;
 }
 
 
@@ -183,6 +183,7 @@ div{
 
 .cases .content {
 	margin-top: 7.875rem;
+	padding-bottom: 5rem;
 }
 
 .cases .devices li{
@@ -203,10 +204,55 @@ div{
 	font-weight: 400;
 	font-size: 1.563rem;
 }
+/* Start of Footer Section*/
+
+.footer {
+	text-align: center;
+
+}
+
+.footer li {
+	display: inline-block;
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: inline-block;
+	margin: 1.25rem 5px;
+	border: 1px solid #eaebec;
+	padding: 0.625rem 0;
+	text-align: center;
 
 
+}
 
+.footer li:hover {
 
+	cursor: pointer;
+
+}
+
+.footer h5 {
+	margin-top: 1rem;
+}
+
+.twitter {
+	color: #55acee;
+}
+
+.facebook {
+	color: #4c66a4;
+}
+
+.instagram {
+	color: #3f729b;
+}
+
+.footer p {
+	color: #838994;
+	font-weight: 300;
+	font-size: .9rem;
+	margin-bottom: 10rem;
+}
 
 
 
