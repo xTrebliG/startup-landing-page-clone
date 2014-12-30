@@ -57,7 +57,7 @@ table {
 
 
 body{
-	background-color: LightGray;
+	background-color: white;
 	font-family: Roboto;
 }
 div{
@@ -67,8 +67,6 @@ div{
 
 .content{
 	 -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-     box-sizing: border-box;         /* Opera/IE 8+ */
 	padding: 0px 15px;
 	margin:0 auto; 
 	width: 970px;
@@ -130,7 +128,6 @@ div{
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
-    position: absolute;
     width: 100%;
     overflow: auto;
 }
@@ -174,6 +171,35 @@ div{
 
 /* Everyone needs a little Karma section */
 
+.cases h2{
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
+	text-align: center;
+}
+
+.cases .content {
+	margin-top: 7.875rem;
+}
+
+.cases .devices li{
+	width: 33.33% ;
+    display: inline-block;
+    text-align: center;	
+}
+
+.cases img {
+	width: 127px;
+	height: 127px;
+	display: block;
+	margin: auto;
+}
+
+.cases .devices h3 {
+	margin: 2.5rem 0px 1.875rem;
+	font-weight: 400;
+	font-size: 1.563rem;
+}
 
 
 
